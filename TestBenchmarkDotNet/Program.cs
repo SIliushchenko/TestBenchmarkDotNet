@@ -8,7 +8,6 @@ namespace TestBenchmarkDotNet
     [JsonExporterAttribute.FullCompressed]
     public class Md5VsSha256
     {
-        // Test data size
         private const int N = 10000;
         private readonly byte[] data;
 
