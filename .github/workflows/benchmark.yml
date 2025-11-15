@@ -1,9 +1,8 @@
 name: Continuous Benchmarking
 
 on:
-  push: 
-    branches:
-      - main    # Specify the launch trigger.  Push selected in the main branch.
+  pull_request:
+    branches: [ "main" ]
 
 permissions:
   contents: write  # Grant permission to commit the results to the repository (for example, to the gh-pages branch).
