@@ -27,8 +27,8 @@ jobs:
           # The flag "--exporters json" tells BenchmarkDotNet to add a JSON exporter (Brief by default) in case you haven't marked it with attributes.
           # The filter means “run all benchmarks” (mask *).
           dotnet run -c Release --exporters json --filter '*'
-          
-      - name: Debug: list benchmark artifacts
+
+      - name: List benchmark artifacts
         run: |
           echo "PWD:"
           pwd
