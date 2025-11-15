@@ -1,8 +1,14 @@
 name: Continuous Benchmarking
 
 on:
+  push:
+    branches-ignore:
+      - gh-pages
+      - docs
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
+
 
 permissions:
   contents: write  # Grant permission to commit the results to the repository (for example, to the gh-pages branch).
