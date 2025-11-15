@@ -27,6 +27,13 @@ jobs:
           # The flag "--exporters json" tells BenchmarkDotNet to add a JSON exporter (Brief by default) in case you haven't marked it with attributes.
           # The filter means “run all benchmarks” (mask *).
           dotnet run -c Release --exporters json --filter '*'
+          
+      - name: Debug: list benchmark artifacts
+        run: |
+          echo "PWD:"
+          pwd
+          echo "Searching for *Md5VsSha256* JSON:"
+          find . -maxdepth 6 -type f -name '*Md5VsSha256*-report-*.json' -print
 
       - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1 # This Action is designed to collect and save performance results with various tools, including BenchmarkDotNet.
