@@ -16,7 +16,7 @@ window.BENCHMARK_DATA = {
             "username": "SIliushchenko"
           },
           "distinct": true,
-          "id": "7deb457bee3429afa19ef60b79cfe456d4384bbb",
+          "id": "google1",
           "message": "Minor changes",
           "timestamp": "2025-11-16T01:17:23+02:00",
           "tree_id": "b82baa064e55330684b9f7d5afe138768db64dbf",
@@ -52,11 +52,11 @@ window.BENCHMARK_DATA = {
             "username": "SIliushchenko"
           },
           "distinct": true,
-          "id": "8c3102e7c9423b253089444bf593fac9b5aaf91c",
+          "id": "google2",
           "message": "Test!2345",
           "timestamp": "2025-11-19T17:29:13+02:00",
           "tree_id": "a9455d9c627af481bcf3b00198a143de3e264f0c",
-          "url": "https://github.com/SIliushchenko/TestBenchmarkDotNet/commit/8c3102e7c9423b253089444bf593fac9b5aaf91c"
+          "url": "https://github.com/SIliushchenko/TestBenchmarkDotNet/commit/google2"
         },
         "date": 1763566236340,
         "tool": "benchmarkdotnet",
@@ -88,11 +88,11 @@ window.BENCHMARK_DATA = {
             "username": "SIliushchenko"
           },
           "distinct": true,
-          "id": "dfd158281061b1bb966d65c410795a9b5d55c3bd",
+          "id": "google3",
           "message": "12345",
           "timestamp": "2025-11-19T17:42:03+02:00",
           "tree_id": "0360f3c32ac2b7c8868157695c635bae6b43bbaa",
-          "url": "https://github.com/SIliushchenko/TestBenchmarkDotNet/commit/dfd158281061b1bb966d65c410795a9b5d55c3bd"
+          "url": "https://github.com/SIliushchenko/TestBenchmarkDotNet/commit/google3"
         },
         "date": 1763566996699,
         "tool": "benchmarkdotnet",
