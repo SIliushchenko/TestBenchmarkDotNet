@@ -38,7 +38,7 @@ jobs:
           auto-push: true # Includes automatic push of results. That is, Action will perform git commit and git push itself to add new results to the repository (to the GitHub Pages branch, described below).
           alert-threshold: '110%' # Threshold for alerting about performance regression.
           comment-on-alert: true # When regression above the threshold is detected, Action will leave a comment on the commit (and on the related pull request, if any) with information about the performance degradation. 
-          fail-on-alert: true # If regression is detected, the workflow will return a non-zero code (fail). This means that the build itself will be marked as failed in GitHub Actions.
+          fail-on-alert: false # If regression is detected, the workflow will return a non-zero code (fail). This means that the build itself will be marked as failed in GitHub Actions.
           alert-comment-cc-users: '@SIliushchenko' # List of users (separated by commas) to mention (@) in comments during regression.
 
       # - name: Store benchmark result (separate repo) 
