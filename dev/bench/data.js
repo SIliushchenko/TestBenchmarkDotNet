@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763566237208,
+  "lastUpdate": 1763566997545,
   "repoUrl": "https://github.com/SIliushchenko/TestBenchmarkDotNet",
   "entries": {
     "BenchmarkDotNet Results": [
@@ -72,6 +72,42 @@ window.BENCHMARK_DATA = {
             "value": 15439.1517967811,
             "unit": "ns",
             "range": "± 5.598399979162128"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ilyushchenko.s@gmail.com",
+            "name": "Serhii Iliushchenko",
+            "username": "SIliushchenko"
+          },
+          "committer": {
+            "email": "ilyushchenko.s@gmail.com",
+            "name": "Serhii Iliushchenko",
+            "username": "SIliushchenko"
+          },
+          "distinct": true,
+          "id": "dfd158281061b1bb966d65c410795a9b5d55c3bd",
+          "message": "12345",
+          "timestamp": "2025-11-19T17:42:03+02:00",
+          "tree_id": "0360f3c32ac2b7c8868157695c635bae6b43bbaa",
+          "url": "https://github.com/SIliushchenko/TestBenchmarkDotNet/commit/dfd158281061b1bb966d65c410795a9b5d55c3bd"
+        },
+        "date": 1763566996699,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "TestBenchmarkDotNet.Md5VsSha256.Sha256",
+            "value": 1000190336.4666667,
+            "unit": "ns",
+            "range": "± 31531.623574859994"
+          },
+          {
+            "name": "TestBenchmarkDotNet.Md5VsSha256.Md5",
+            "value": 15443.25182887486,
+            "unit": "ns",
+            "range": "± 10.004331964498627"
           }
         ]
       }
