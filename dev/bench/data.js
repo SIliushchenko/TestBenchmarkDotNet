@@ -20,7 +20,7 @@ window.BENCHMARK_DATA = {
           "message": "Minor changes",
           "timestamp": "2025-11-16T01:17:23+02:00",
           "tree_id": "b82baa064e55330684b9f7d5afe138768db64dbf",
-          "url": "https://github.com/SIliushchenko/TestBenchmarkDotNet/commit/7deb457bee3429afa19ef60b79cfe456d4384bbb"
+          "url": "https://github.com/SIliushchenko/TestBenchmarkDotNet/commit/google.com"
         },
         "date": 1763249274370,
         "tool": "benchmarkdotnet",
