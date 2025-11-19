@@ -8,7 +8,6 @@ namespace TestBenchmarkDotNet
     [JsonExporterAttribute.FullCompressed]
     public class Md5VsSha256
     {
-        // Test data size
         private const int N = 10000;
         private readonly byte[] data;
 
@@ -22,7 +21,12 @@ namespace TestBenchmarkDotNet
         }
 
         [Benchmark]
-        public byte[] Sha256() => sha256.ComputeHash(data);
+        public byte[] Sha256()
+        {
+            Thread.Sleep(1000);
+            return sha256.ComputeHash(data);
+        }
+
 
         [Benchmark]
         public byte[] Md5() => md5.ComputeHash(data);
